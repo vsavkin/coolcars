@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/shop-e2e"
+    },
+    {
+      "path": "./apps/shop"
+    },
+    {
+      "path": "./libs/ui-components"
+    },
+    {
+      "path": "./libs/data"
+    }
+  ]
+}

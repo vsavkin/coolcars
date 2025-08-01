@@ -1,0 +1,10 @@
+# Generated TypeScript files
+out-tsc/
+
+# Playwright test results
+test-output/
+test-results/
+playwright-report/
+
+# Coverage
+coverage/
