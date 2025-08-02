@@ -7,10 +7,10 @@ export default function Index() {
     <div className={styles.page}>
       <div className={styles.container}>
         <header className={styles.header}>
-          <h1 className={styles.title}>CoolCars Shop</h1>
+          <h1 className={styles.title}>MegaCoolCars Shop</h1>
           <p className={styles.subtitle}>Premium Vehicles for Every Lifestyle</p>
         </header>
-        
+
         <section className={styles.productsSection}>
           <div className={styles.productsGrid}>
             {products.map((product) => (
