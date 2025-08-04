@@ -10,7 +10,7 @@ describe('Page', () => {
 
   it('should display the shop title', () => {
     const { getByText } = render(<Page />);
-    expect(getByText('VveryCoolCars Shop')).toBeTruthy();
+    expect(getByText('VeryCoolCars Shop')).toBeTruthy();
   });
 
   it('should display all products', () => {
